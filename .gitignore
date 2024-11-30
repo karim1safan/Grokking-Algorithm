@@ -1,0 +1,5 @@
+# ignore book pdf 
+grokking-algorithms-illustrated-programmers-curious.pdf
+
+# ignore drawing on board
+*.xopp
