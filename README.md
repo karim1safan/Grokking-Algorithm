@@ -3,7 +3,7 @@
 - [x]  Chapter 03 [ Recursion ]
 - [x]  Chapter 04 [ Quick Sort ]
 - [x]  Chapter 05 [ Hash Tables ]
-- [ ]  Chapter 06 [ Breadth-First Search ]
+- [x]  Chapter 06 [ Breadth-First Search ]
 - [ ]  Chapter 07 [ Dijkstra’s Algorithm ]
 - [ ]  Chapter 08 [ Greedy Algorithm ]
 - [ ]  Chapter 09 [ Dynamic Programming ]
