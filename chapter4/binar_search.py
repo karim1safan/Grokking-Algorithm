@@ -1,19 +1,24 @@
-# def bsearch(arr, left, right, target):
-#   left = 0
-#   right = len(arr) - 1
-#   mid = (left + right) // 2 
+def bsearch(arr, left, right, target):
+
+  if left > right:
+    return False
+
+  mid = (left + right) // 2 
   
-#   if arr[mid] == target:
-#     return True
-#   elif (arr[mid] > target):
-#     bsearch(arr, left, mid - 1, target)
-#   else:
-#     bsearch(arr, mid + 1, right, target)
-#   return False
+  if arr[mid] == target:
+    return True
+  elif (arr[mid] > target):
+    return bsearch(arr, left, mid - 1, target)
+  else:
+    return bsearch(arr, mid + 1, right, target)
 
-# arr = [1, 3, 5, 7, 9]
-# print(bsearch(arr, 0, len(arr) - 1, 3))
+arr = [1, 3, 5, 7, 9]
+item = bsearch(arr, 0, len(arr) - 1, 4)
 
+if item :
+  print("Item found")
+else:
+  print("Item not found")
 
 
 '''

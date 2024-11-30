@@ -16,7 +16,15 @@
 ##### (D) Map every letter to a prime number: `a = 2, b = 3, c = 5, d = 7, e = 11`, and so on. For a string, the hash function is the sum of all the characters modulo the size of the hash. For example, if your hash size is 10, and the string is “bag”, the index is `3 + 2 + 17 % 10 = 22 % 10 = 2`.
 
 #### 5.5 A phonebook where the keys are names and values are phone numbers. The names are as follows: Esther, Ben, Bob, and Dan.
-
+**<ins>answer</ins>**
+- The correct answer is `C` and `D`
+```
+- if we applied (C) solution
+  Esther => (11+67+71+19+11+61) % 10 = 240 % 10 = 0
+  Ben    => (3+11+43) % 10 = 57 % 10 = 7
+  Dan    => (7+2+43) % 10 = 52 % 10 = 2
+- Solution D is better compared to Solution A because it has fewer collisions.
+```
 
 ----------------------------------------------------------
 #### 5.6 A mapping from battery size to power. The sizes are A, AA, AAA, and AAAA.
