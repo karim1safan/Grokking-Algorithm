@@ -20,7 +20,14 @@
 #### 6.4 Here’s a larger graph. Make a valid list for this graph.
 ![alt text](image-4.png) <br/>
 **<ins>answer</ins>** <br/>
-`Wake up -> Exercise -> Shower -> Brush teeth -> Get dressed -> Pack lunch -> Eat breakfast`
+1. Wake up
+2. Excercise
+3. Shower
+4. Brush teeth
+5. Get dressed
+6. Pack lunch
+7. Eat breakfast
+
 ---------------------------------------------------------
 #### 6.5 Which of the following graphs are also trees?
 ![alt text](image-5.png) <br/>
